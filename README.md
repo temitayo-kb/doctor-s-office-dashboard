@@ -54,7 +54,7 @@ Follow these steps to set up and run the app on your computer.
 
 ### Requirements
 
-Node.js: Install from nodejs.org.
+Node.js: Install from nodejs.org. 
 
 PostgreSQL: Install from postgresql.org.
 
@@ -64,9 +64,10 @@ A code editor like Visual Studio Code.
 
 Go to the server folder: cd server
 
-Install server dependencies:
+#### Install server dependencies:
 
-npm install
+npm install.
+run npm install express pg bcryptjs cors dotenv jsonwebtoken on server cmd
 
 Create a .env file in the server folder (if not already there).
 
@@ -98,7 +99,10 @@ The server will run on http://localhost:5000.
 
 Open a new terminal and go to the client folder: cd client
 
-Install client dependencies: npm install
+#### Install client dependencies:
+
+npm install.
+run npm install axios react-router-dom jwt-decode on client cmd
 
 Start the React app: npm start
 
